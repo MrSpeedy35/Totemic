@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location":
+		{
+			"position":
+			{
+			"y":{"min":98}
+			}
+		},
+		"effects":
+		{
+			"minecraft:regeneration":
+			{
+				"amplifier":1
+			},
+			"minecraft:absorption":
+			{
+				"amplifier":1
+			},
+			"minecraft:fire_resistance":
+			{
+				"amplifier":0
+			}
+		}
+    }
+}

@@ -1,0 +1,45 @@
+#Chests:
+{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:gameplay/totem_rarity",
+          "weight": 50,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50,
+          "quality": -3
+        }
+      ]
+    },
+
+
+#Entities:
+{
+"rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wither of Undying\",\"color\":\"yellow\",\"italic\":false}'},CustomModelData:13}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        },

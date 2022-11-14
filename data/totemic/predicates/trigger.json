@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:inverted",
+	"term":
+	{
+		"condition":"minecraft:alternative",
+		"terms":
+		[
+			{
+				"condition": "minecraft:inverted",
+				"term":
+				{
+					"condition":"minecraft:reference",
+					"name":"totemic:in_void"
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term":
+				{
+					"condition":"minecraft:reference",
+					"name":"totemic:has_totem"
+				}
+			}
+		]
+	}
+}

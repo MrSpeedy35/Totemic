@@ -1,0 +1,1 @@
+give @s minecraft:totem_of_undying{display:{Name:'{"text":"Totem of the Cosmos","color":"green","italic":false}'},CustomModelData:18, totemic:boom} 1
